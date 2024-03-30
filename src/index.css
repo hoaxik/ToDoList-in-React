@@ -1,0 +1,90 @@
+body{
+  background-color: #242424;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.to-do-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: white;
+}
+
+.input-box{
+  width: 75vw;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+#add-task{
+  background: #3b3c51;
+  color: white;
+  border: none;
+  width: 75%;
+  height: 4vh;
+  font-size: 2vh;
+  border-radius: 5px;
+  padding-left: 2vw;
+}
+
+.add-button{
+  width: 20%;
+  height: 4vh;
+  background-color: #49ff70;
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.add-button:hover{
+  transform: translateY(2px);
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 0;
+  transition: .3s;
+}
+
+li{
+  padding: 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  min-width: 70vw;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  background-color: #3b3c51;
+  width: 73vw;
+  padding: 1vw;
+}
+
+.text{
+  width: 50%;
+  color: white;
+}
+
+.delete-button{
+  background: #ff4949;
+  border: none;
+  border-radius: 5px;
+  height: 4vh;
+  cursor: pointer;
+}
+
+.move-button{
+  background: #03a8f5;
+  border: none;
+  border-radius: 5px;
+  height: 4vh;
+  width: 4vh;
+  cursor: pointer;
+}
